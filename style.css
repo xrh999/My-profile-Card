@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
 }
 
 body {
-  background: #000;
+  background: #1d1d1d;
   color: #e2e2e2;
   display: flex;
   align-items: center;
@@ -14,9 +14,11 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #ff5b76;
-  margin-bottom: 0.2rem
+  margin-bottom: 0.2rem;
 }
 
 a h2 {
@@ -30,7 +32,7 @@ a h2 {
 
 a h2:hover {
   color: #ffaebc;
-  text-shadow: 0 2px 10px rgba(255. 91, 110, 0.6);
+  text-shadow: 0 2px 10px rgba(255 91, 110, 0.6);
 }
 
 .card {
@@ -43,7 +45,7 @@ a h2:hover {
   flex-direction: column;
   gap: 2rem;
   border-radius: 2rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .profile-content {
@@ -63,7 +65,7 @@ a h2:hover {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 5px 15px rgba (0, 0, 0, 0.1)
+  box-shadow: 0 5px 15px rgba (0, 0, 0, 0.1);
 }
 
 .details h1 {
