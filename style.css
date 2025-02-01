@@ -38,7 +38,7 @@ h1, h2, h3 {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .profile-header img {
@@ -67,4 +67,13 @@ h1, h2, h3 {
   font-style: italic;
   color: #ffdfdf;
   text-align: center;
+}
+
+.about-list li {
+  padding: 0.5rem;
+}
+
+.title {
+  text-align: center;
+  color: #ff5b76;
 }
